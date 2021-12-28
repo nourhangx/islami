@@ -11,7 +11,7 @@ class HomeScreen extends StatelessWidget {
         title: Text('islami app' , style: TextStyle(
             fontWeight: FontWeight.bold),),
       ),
-      body:Text('hbjhbliftugfliyh', style: TextStyle(fontSize: 45),) ,
+      body:Text('allah', style: TextStyle(fontSize: 45),) ,
     );
   }
 }
