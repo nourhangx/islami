@@ -6,7 +6,7 @@ import 'package:islami/home/tasbeh/tasbehTab.dart';
 import 'package:islami/main.dart';
 
 class HomeScreen extends StatefulWidget {
-  static const String RouteName = 'home';
+  static const String routeName = 'home';
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
@@ -29,7 +29,6 @@ class _HomeScreenState extends State<HomeScreen> {
         Scaffold(
           //backgroundColor:Colors.transparent,
           appBar: AppBar(
-            centerTitle: true,
             title: Text('Islami'),
           ),
           bottomNavigationBar: Theme(
